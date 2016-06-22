@@ -39,8 +39,8 @@ Enumeration Action
     #Edit
 EndEnumeration
 Global CurrentAction.i=-1 ; -1 pas d'action
-;}
-;-* procedures declaration
+                          ;}
+                          ;-* procedures declaration
 Declare OpenMainForm()
 Declare GetSizeInPxl()
 Declare RepositionOfGadget()
@@ -116,7 +116,7 @@ Procedure RepositionOfGadget()
     If GadgetHeight(#MainCanvas)-5>GadgetHeight(#MainArea)
         SetGadgetAttribute(#MainArea,#PB_ScrollArea_InnerHeight,GadgetHeight(#MainCanvas)+50)
     Else
-         SetGadgetAttribute(#MainArea,#PB_ScrollArea_InnerHeight,GadgetHeight(#MainArea)-5)
+        SetGadgetAttribute(#MainArea,#PB_ScrollArea_InnerHeight,GadgetHeight(#MainArea)-5)
     EndIf
 EndProcedure
 Procedure Exit()
@@ -190,7 +190,7 @@ Procedure ManageZoom()
     Draw()
 EndProcedure
 Procedure GetMousePosition()
-     ; Important ici on choisi l'unité en pixel
+    ; Important ici on choisi l'unité en pixel
     StartVectorDrawing(CanvasVectorOutput(#MainCanvas,#PB_Unit_Millimeter))
     ; On applique le zoom
     ScaleCoordinates(ZoomFactor,ZoomFactor,#PB_Coordinate_User)
@@ -243,6 +243,7 @@ OpenMainForm()
 Repeat:WaitWindowEvent():ForEver
 ;}
 ; IDE Options = PureBasic 5.50 beta 1 (Windows - x64)
-; CursorPosition = 52
-; Folding = IAAAA-
+; CursorPosition = 243
+; FirstLine = 217
+; Folding = ------
 ; EnableXP
