@@ -1,7 +1,7 @@
 ﻿;************************************************************************************************************************
 ; Author : MicrodevWeb
 ; Project Name : Tuto Draw on A4 sheet
-; File Name : Draw_on_A4_sheet_01.pb
+; File Name : Draw_on_A4_sheet_02.pb
 ; Description : Mise ne place et fonction de zoom
 ;************************************************************************************************************************
 EnableExplicit
@@ -243,7 +243,6 @@ OpenMainForm()
 Repeat:WaitWindowEvent():ForEver
 ;}
 ; IDE Options = PureBasic 5.50 beta 1 (Windows - x64)
-; CursorPosition = 243
-; FirstLine = 217
+; CursorPosition = 3
 ; Folding = ------
 ; EnableXP
